@@ -1,0 +1,78 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--cor-background-nav);
+    width: 100%;
+    height: 5.714em;
+    padding: 0 1.714em;
+    position: fixed;
+    top: 0%;
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2em;
+}
+
+.menu__icone {
+    width: 1.7em;
+    height: 1.7em;
+}
+
+.menu__lista-itens-input {
+    padding: 0.705em 0.2em;
+    border: 1px solid var(--cor-cinza);
+    width: 30vw;
+}
+
+.menu__lista-itens-input::placeholder {
+    background: url('/assets/cabecalho/keyboard.png') no-repeat;
+    background-position: right;
+}
+
+.menu__lista-itens-label {
+    background-image: url('/assets/cabecalho/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--cor-background-branco);
+    padding: 0.6em 2.28em;
+    border: 1px solid var(--cor-cinza);
+    border-left: none;
+}
+
+.menu__lista-itens-microfone {
+    background-image: url('/assets/cabecalho/mic.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--cor-background-branco);
+    padding: 1em 2.28em;
+    border-radius: 100%;
+}
+
+.menu__lista-itens-video-img {
+    width: 2.2em;
+}
+
+.menu__lista-itens:nth-child(1),
+.menu__lista-itens:nth-child(2),
+.menu__lista-itens:nth-child(3) {
+    display: none;
+} 
+
+@media screen and (min-width: 768px) {
+
+    .menu__lista-itens:nth-child(1),
+    .menu__lista-itens:nth-child(2),
+    .menu__lista-itens:nth-child(3) {
+        display: block;
+    }
+
+
+    .menu__lista-itens:nth-child(5) {
+        display: none;
+    } 
+    
+}
