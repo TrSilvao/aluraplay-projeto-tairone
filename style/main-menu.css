@@ -1,0 +1,131 @@
+.principal__menu {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    background: var(--cor-main-principal-ativo);
+}
+
+.principal__menu-lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.principal__menu-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor-background-branco);
+    text-decoration: none;
+    gap: 2px;
+}
+
+.principal__menu-itens:hover {
+    background-color: var(--azul-medio);
+    transition: .5s;
+}
+
+.principal__menu-itens-inicio::before {
+    content: url('/assets/menu/home.png');
+}
+
+.principal__menu-itens-explorar::before {
+    content: url('/assets/menu/explore.png');
+}
+
+.principal__menu-itens-shorts::before {
+    content: url('/assets/menu/shorts.png');
+}
+
+.principal__menu-itens-inscricoes::before {
+    content: url('/assets/menu/subscriptions.png');
+}
+
+.principal__menu-itens-biblioteca::before {
+    content: url('/assets/menu/video_library.png');
+}
+
+.principal__menu-itens-historico::before {
+    content: url('/assets/menu/history.png');
+}
+
+.principal__menu-itens-relogio::before {
+    content: url('/assets/menu/history_toggle_off.png');
+}
+
+.principal__menu-itens-like::before {
+    content: url('/assets/menu/thumb_up_alt.png');
+}
+
+.principal__menu-itens-mostrar::before {
+    content: url('/assets/menu/keyboard_arrow_down.png');
+}
+
+.principal__menu-itens-deschamps::before {
+    content: url('/assets/menu/Avatar_Deschamps.png');
+}
+
+.principal__menu-itens-nerd::before {
+    content: url('/assets/menu/Avatar_Jovem_Nerd.png');
+}
+
+.principal__menu-itens-souto::before {
+    content: url('/assets/menu/Avatar_Souto.png');
+}
+
+.principal__menu-itens-iamarino::before {
+    content: url('/assets/menu/Avatar_Atila.png');
+}
+
+.principal__menu-itens-ballerini::before {
+    content: url('/assets/menu/Avatar_Rafa.png');
+}
+
+.principal__menu-itens-gaveta::before {
+    content: url('/assets/menu/Avatar_Gaveta.png');
+}
+
+.principal__menu-itens-alura::before {
+    content: url('/assets/menu/Avatar_Alura.png');
+}
+
+.principal__menu-itens-jogos::before {
+    content: url('/assets/menu/jogos.png');
+}
+
+.principal__menu-itens-filmes::before {
+    content: url('/assets/menu/filmes.png');
+}
+
+.principal__menu-itens-videos::before {
+    content: url('/assets/menu/videos.png');
+}
+
+.principal__menu-lista:nth-child(2),
+.principal__menu-lista:nth-child(3),
+.principal__menu-lista:nth-child(4) {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .principal__menu {
+        position: fixed;
+        left: 0;
+        top: 5.714em;
+        width: 13vh;
+        height: 100%;
+    }
+
+    .principal__menu-lista {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 2em;
+        padding-top: 2em;
+    }
+
+}
