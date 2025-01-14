@@ -21,11 +21,14 @@
         height:80vh;
         position: fixed;
         left: 13vh;
+        width: 95%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .rodape {
         height:50vh;
+        width: 90%;
+        left: 30vh;
     }
 }
