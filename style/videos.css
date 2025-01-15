@@ -1,0 +1,8 @@
+.videos {
+    padding-left: 35vh;
+}
+
+.videos__item {
+    height: 303px;
+    width: 280px;
+}

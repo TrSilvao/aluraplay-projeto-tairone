@@ -27,6 +27,12 @@
         border-top: 1px solid var(--cor-titulo-azul);
         border-bottom: 1px solid var(--cor-titulo-azul);
         padding-left: 15vh;
-    }    
+    }  
+}
 
+@media screen and (min-width: 1024px) {
+
+    .principal__superior-secao {
+        padding-left: 32vh;
+    }
 }

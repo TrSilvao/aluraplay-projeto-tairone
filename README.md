@@ -5,3 +5,5 @@ curso de css
 12/01/2025 - muito tempo depois eu volto para continuar meus estudos. E depois de muitas horas consegui acabar o cabeçalho, o menu que fica mudando de lugar o radape e o menu que é um scroll abaixo do cabeçalho. o chat cpt me abandonou e que que eu pague agora. T-T
 
 13/01/2025 - Opa agora n deixei passar muito tempo e ja to aqui atualizando o dever de casa. Hoje ajustei a janela do menu para ficar melhor nas telas de  1024px ou mais. e basicamente foi isto, escrevendo assim parece pouco mas to nesta brincadeira a umas 3-4h T-T
+
+14/01/2025 - adicionando videos e corrigindo alguns espaçoes.
