@@ -7,3 +7,5 @@ curso de css
 13/01/2025 - Opa agora n deixei passar muito tempo e ja to aqui atualizando o dever de casa. Hoje ajustei a janela do menu para ficar melhor nas telas de  1024px ou mais. e basicamente foi isto, escrevendo assim parece pouco mas to nesta brincadeira a umas 3-4h T-T
 
 14/01/2025 - adicionando videos e corrigindo alguns espaçoes.
+
+18/01/2025 - corrigindo os espaçamentos e fazendo tudo funcionar em todas as telas e pronto acabou XD
